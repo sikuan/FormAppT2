@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NextActivity"
+    android:orientation="vertical"
+    android:background="@color/pink">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView00"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textTitle_next"
+            android:textColor="@color/teal_700"
+            android:textSize="@dimen/textFont"
+            android:textAlignment="center"/>
+
+        <!--Student Name-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fullName"
+                android:textColor="@color/teal_700"
+                android:textSize="@dimen/textFont" />
+
+            <TextView
+                android:id="@+id/showName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textName"
+                android:textColor="@color/teal_700"
+                android:textSize="@dimen/textFont"
+                />
+
+        </LinearLayout>
+
+        <!--Student Address-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/address"
+                android:textColor="@color/teal_700"
+                android:textSize="@dimen/textFont" />
+
+            <TextView
+                android:id="@+id/showAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textAddress"
+                android:textColor="@color/teal_700"
+                android:textSize="@dimen/textFont" />
+
+        </LinearLayout>
+
+        <!--Student Profession-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewProfession"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/profession"
+                android:textColor="@color/teal_700"
+                android:textSize="@dimen/textFont" />
+
+            <TextView
+                android:id="@+id/showProfession"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textProfession"
+                android:textColor="@color/teal_700"
+                android:textSize="@dimen/textFont" />
+
+        </LinearLayout>
+
+        <!--Student Job-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewJob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dreamJob"
+                android:textColor="@color/teal_700"
+                android:textSize="@dimen/textFont" />
+
+            <TextView
+                android:id="@+id/showJob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textJob"
+                android:textColor="@color/teal_700"
+                android:textSize="@dimen/textFont" />
+        </LinearLayout>
+
+        <!--Student Food-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewFood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/favoriteFood"
+                android:textColor="@color/teal_700"
+                android:textSize="@dimen/textFont" />
+
+            <TextView
+                android:id="@+id/showFood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textFood"
+                android:textColor="@color/teal_700"
+                android:textSize="@dimen/textFont" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
